@@ -1,0 +1,387 @@
+[
+    {
+        "page_content": "machine learning project diploma level of bs in data science and applications machine learning project diploma level of bs in data science and applications project registration easy 7 steps project workflow duration of the project criteria to pass this project course kaggle competition link practice kaggle competitions project problem type rules start making submissions evaluation of the ml code that is submitted in kaggle registration status milestones and activities making a submission when",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 1
+        }
+    },
+    {
+        "page_content": "registration status milestones and activities making a submission when will the project submission be discarded libraries allowed eligibility to schedule and attend the viva where to check viva eligibility repeat l1 viva level 2 viva how to prepare for level 2 viva voce examination level 2 viva marking scheme repeat viva voce examination faqs tentative viva schedule how to make admin iitmbscs2008p a collaborator to your competition kaggle notebook",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 1
+        }
+    },
+    {
+        "page_content": "project registration easy 7 steps 0 since you will be participating individually create a kaggle account if you don t already have one 1 join the competition using the following link 2 after joining the competition go to the code tab and create a new notebook 3 keep notebook name as yourrollno notebook t12026 i e 21f1001234 notebook t12026 4 share the notebook with iitmbscs2008p collaborator view access is sufficient and make keep it private 5 build your first ml model dummy or any other and",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 2
+        }
+    },
+    {
+        "page_content": "make keep it private 5 build your first ml model dummy or any other and make your first submission 6 submit your notebook link in the competition registration form without doing this step which is submitting your kaggle notebook link in the competition registration form you will not be eligible to complete the project or do the viva project workflow",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 2
+        }
+    },
+    {
+        "page_content": "duration of the project release of project statement jan 17 2026 extension of deadline for submitting notebook link feb 28 2026 kaggle competition deadline 15 03 2025 latest viva evaluation policy click here mlp project evaluation timelines and scheme mlp course theory completion term deadline to cross cutoff deadline to complete both vivas evaluation scheme may 2025 and earlier 15 march 2026 30 march 2026 evaluated out of 100 marks sep 2025 and jan 2026 15 march 2026 30 march 2026 evaluated out",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 3
+        }
+    },
+    {
+        "page_content": "100 marks sep 2025 and jan 2026 15 march 2026 30 march 2026 evaluated out of 105 marks with the final score capped at 100 the deadline to cross cut off is extended to 15 march 2026 for students from may 2025 and earlier terms please note that the deadline will not be extended beyond 15 march 2026 note you may continue to participate in the competition and improve your score even after completing your viva until the competition ends however students who do not meet the deadline for completing",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 3
+        }
+    },
+    {
+        "page_content": "ends however students who do not meet the deadline for completing both vivas will not be given any further opportunity to appear for the vivas later criteria for bonus marks as per grading doc marking for the projects w e f t12026 if you complete the project in the same term as the theory course or the subsequent term we will evaluate your project for 105 marks and cap it at 100 thereafter the projects will be evaluated out of 100 criteria to pass this project course 1 students must attempt at",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 3
+        }
+    },
+    {
+        "page_content": "out of 100 criteria to pass this project course 1 students must attempt at least three different models to address the problem as relying on a single model will not be acceptable failure to meet this requirement will result in the mlp project being disqualified 2 additionally students are expected to 1 conduct thorough exploratory data analysis eda to provide meaningful insights and support their modeling choices",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 3
+        }
+    },
+    {
+        "page_content": "2 clearly explain their code demonstrating a solid understanding of its functionality and purpose 3 projects that do not meet these standards will not be considered for evaluation 4 score cutoff in kaggle for the final submission to be eligible for viva 0 80 5 passing the project viva score 25 50 and total project score 50 100 the formula for computing total score out of 100 is as follows final marks nb m s v where nb score of your notebook out of 10 marks this is assigned by the viva examiner",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 4
+        }
+    },
+    {
+        "page_content": "of your notebook out of 10 marks this is assigned by the viva examiner eda 4 marks model training and selection 3 marks comparison of different models 4 marks m 5 marks will be awarded to those who successfully complete all milestones s marks for the ml model 5 marks awarded to all those who cross the cutoff score obtained in kaggle scaled from 0 to 30 total 35 marks v marks in viva voce out of 50 marks final marks nb m s v kaggle competition link following is the link to the competition the",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 4
+        }
+    },
+    {
+        "page_content": "m s v kaggle competition link following is the link to the competition the effective leaderboard of the competition is the following click here the effective leaderboard is computed by only those submissions made via finalnotebook of students practice kaggle competitions the following link has good practice kaggle competitions kaggle playground competitions project problem type you will be working on a regression classification problem",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 4
+        }
+    },
+    {
+        "page_content": "rules 1 the mlp project will be conducted on the kaggle platform 2 only students who register for the mlp project during the course registration window can participate in this project 3 the link to the project on the kaggle platform is 4 each student will participate individually only this is not a group project 5 no external data can be used to train your model if found otherwise your project will be discarded 6 do not use any accelerators available in the kaggle platform use a cpu only",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 5
+        }
+    },
+    {
+        "page_content": "not use any accelerators available in the kaggle platform use a cpu only environment to execute your notebooks which is by default for every notebook 7 you are supposed to keep your project code in private mode you will be disqualified if your code is found public 8 plagiarism is a serious offense you are suggested to refer to the student handbook to acquaint yourself with the detailed consequences of plagiarism start making submissions once you have joined the competition on kaggle you can",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 5
+        }
+    },
+    {
+        "page_content": "making submissions once you have joined the competition on kaggle you can create a new notebook start submitting ml code on kaggle within the notebook and see what score you get using it you can make a maximum of 5 submissions every day if you do not make a submission on a day the 5 chances will not be carried forward the next day you can change the models and see if the score keeps improving evaluation of the ml code that is submitted in kaggle watch this video for more information on how to",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 5
+        }
+    },
+    {
+        "page_content": "is submitted in kaggle watch this video for more information on how to create and manage your notebook demo video link 1 create a new notebook inside the competition code tab referred to as finalnotebook hence onwards 2 this will be submitted as your final work and will have your best model for evaluation 3 name your finalnotebook as yourrollno notebook t12026 i e your roll no followed by hyphen dash followed by notebook t12026 all characters should be in lowercase letters if your roll no is",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 5
+        }
+    },
+    {
+        "page_content": "t12026 all characters should be in lowercase letters if your roll no is 21f10001234 then your notebook name i e finalnotebook should be 21f10001234 notebook t12026",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 5
+        }
+    },
+    {
+        "page_content": "4 share your finalnotebook with the admin of the competition i e kaggle username iitmbscs2008p 5 do not change the name of this notebook you can create many other notebooks for experimenting with different models and approaches 6 if you share a notebook with any other name that notebook will not be counted towards your project 7 only submissions made from the final notebook will be considered for grading your first submission 8 make your first submission from finalnotebook you can use any ml",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 6
+        }
+    },
+    {
+        "page_content": "8 make your first submission from finalnotebook you can use any ml model e g dummy model for your first submission we will check from our side to see if we have received it 9 submissions made by explicitly uploading csv zip or any other file will not be counted towards your project milestones 10 there will be some milestones in the project use milestones as intermediate goals for steadily making progress 11 submitting at least 2 out of 5 milestones is mandatory to complete the project there",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 6
+        }
+    },
+    {
+        "page_content": "at least 2 out of 5 milestones is mandatory to complete the project there will be one mark awarded for each milestone completion registration status you can check your registration status from the following link registration status sheet if your registration is not complete it is likely due to the following issue 1 is notebookname correct your notebook name is not according to the mentioned format 2 notebook shared with iitmbscs2008p you haven t given view access to the competition host",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 6
+        }
+    },
+    {
+        "page_content": "with iitmbscs2008p you haven t given view access to the competition host iittmbscs2008p 3 leaderboard score missing your kaggle username is not present on the leaderboard because you haven t made any successful prediction submissions using your notebook the sheet is updated every 72 hours if you have followed all the instructions correctly please wait for 72 hours before reporting in case of a discrepancy in the registration sheet milestones and activities",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 6
+        }
+    },
+    {
+        "page_content": "following the milestones and completing the corresponding assignments is mandatory to complete the project the questions for the milestones will be shared via a form in the course portal the milestone is considered submitted only when you receive the response copy to your email id deadline description milestone 1 feb 15 2026 sunday data loading exploratory data analysis data visualization statistical analysis train validation split data cleaning preprocessing building a baseline model milestone",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 7
+        }
+    },
+    {
+        "page_content": "split data cleaning preprocessing building a baseline model milestone 2 feb 22 2026 sunday 1 linear models 2 stochastic gradient descent tune the hyperparameters of the model milestone 3 mar 1 2026 sunday dimensionality reduction feature selection retrain the models naive bayes nearest neighbors support vector machines milestone 4 mar 8 2026 sunday ensemble bagging boosting stacking multi layer perceptron milestone 5 mar 15 2026 sunday repeat the ml end to end process again with insights into",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 7
+        }
+    },
+    {
+        "page_content": "15 2026 sunday repeat the ml end to end process again with insights into the dataset",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 7
+        }
+    },
+    {
+        "page_content": "last submission 15 03 2026 sunday last submission for the project there is an assignment in the corresponding week for each of the above milestones in your project in the seek portal important note the mlp project milestones are not in sync with the mlp course ideally the project should be taken after completing the course the option of taking the mlp course and mlp project together i e in the same term is open for students already having experience with ml e g professional data scientists data",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 8
+        }
+    },
+    {
+        "page_content": "already having experience with ml e g professional data scientists data analysts if you are new to ml you should complete the mlp course in one term and the mlp project in a later term making a submission watch this video for more information on how to create and manage your notebook notebook submission demo link 1 create a kaggle notebook 2 the code to read and load the data will be already present in the notebook 3 your notebook should produce a submission csv file containing predictions for",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 8
+        }
+    },
+    {
+        "page_content": "notebook should produce a submission csv file containing predictions for test samples your newly created submission file should be visible in the output tab 4 submit the submission file for details refer the video link given 5 make sure the notebook name its version number and the submitted file name are as desired 6 always make a submission from your kaggle notebook when will the project submission be discarded 1 submitting a different kaggle notebook link in competition registration form and",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 8
+        }
+    },
+    {
+        "page_content": "a different kaggle notebook link in competition registration form and making submissions with another 2 the python notebook containing the final ml code not being submitted on the kaggle portal finalnotebook not shared with the competition host 3 any student found to plagiarize from the internet or fellow student or any other source will fail this project and will have to repeat this project 4 any student found to submit code with any machine learning libraries such as tensorflow pytorch nltk",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 8
+        }
+    },
+    {
+        "page_content": "code with any machine learning libraries such as tensorflow pytorch nltk word2vec textblob etc other than those mentioned below will fail this project",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 8
+        }
+    },
+    {
+        "page_content": "plagiarism in project the project will be considered complete only once the final grade for the project course is published on the student dashboard any inappropriate conduct during the project period may be treated as malpractice this includes but is not limited to the following sharing code snippets notebooks or any project related material with any other students this includes students not registered for the project course submitting work that is wholly or partially copied from another",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 9
+        }
+    },
+    {
+        "page_content": "course submitting work that is wholly or partially copied from another student allowing another individual to complete any portion of the project on one s behalf using solutions code repositories or notebooks from external sources reproducing project outputs that are substantially similar to another student s work even if variable names or minor details are altered refer to the student handbook to acquaint yourself with the detailed consequences of plagiarism libraries allowed only the",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 9
+        }
+    },
+    {
+        "page_content": "with the detailed consequences of plagiarism libraries allowed only the following libraries will be allowed to be used in the competition 1 numpy 2 pandas 3 matplotlib 4 scikit learn 5 xgboost 6 seaborn 7 imblearn 8 scipy 9 pickle 10 regex 11 lightgbm 12 plotly 13 statsmodel",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 9
+        }
+    },
+    {
+        "page_content": "14 wordcloud please note these libraries are already installed in your kaggle notebook python in built libraries can also be used using libraries like tensorflow pytorch nltk automl frameworks spacy word2vec textblob etc is not allowed eligibility to schedule and attend the viva you can keep making submissions in the contest every day mandatory condition 1 to be eligible for viva your submissions must be only from the kaggle notebook submitted in competition registration form mandatory condition",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 10
+        }
+    },
+    {
+        "page_content": "notebook submitted in competition registration form mandatory condition 2 to be eligible for viva crossing the score cutoff mandatory condition 3 to be eligible for viva the submitted finalnotebook containing your latest ml model when executed must cross the cutoff mandatory condition 4 to be eligible for viva the python finalnotebook should pass the plagiarism checker where to check viva eligibility you can check if you are eligible for the viva exam from the following document viva",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 10
+        }
+    },
+    {
+        "page_content": "if you are eligible for the viva exam from the following document viva eligibility sheet we will add user name status first sample submission status notebook name status team name status effective leaderboard rank score nb v t p f the above information will be updated every monday eod after publishing initially the cutoff score for the t12026 term kaggle contest is 0 80 level 1 viva the level 1 viva is designed to ensure that each participant in the kaggle project has put in a significant",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 10
+        }
+    },
+    {
+        "page_content": "that each participant in the kaggle project has put in a significant amount of effort in their mlp project this ensures that only participants who have shown dedication and effort in their project work are eligible for the level 2 viva please note that completing all checklists is mandatory following is the checklist for level 1 viva 1 the dataset is appropriately loaded and stored into corresponding variables 2 exploratory data analysis 1 visualizing key statistics and relationships in the",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 10
+        }
+    },
+    {
+        "page_content": "data analysis 1 visualizing key statistics and relationships in the data 2 correctly identify the feature types",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 10
+        }
+    },
+    {
+        "page_content": "3 detecting missing data and imputation if required 4 the dataset is appropriately preprocessed 1 scaling numerical features 2 encoding categorical features 5 appropriate usage of pipelines if any 6 feature engineering extraction 7 hyperparameter tuning of the model to optimize its performance 8 code should be clean well structured and appropriately commented 9 highlight important ideas learned from the dataset and or model 10 compare at least 3 best models of all the models experimented analyze",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 11
+        }
+    },
+    {
+        "page_content": "10 compare at least 3 best models of all the models experimented analyze their results and provide insights on the model is performance 11 make submission with the model with the best score on training data note performing exploratory data analysis eda and making predictions using a minimum of three models is a mandatory requirement additionally achieving a minimum score of will be updated soon is necessary to successfully pass the level 1 viva examination repeat l1 viva if a student completes",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 11
+        }
+    },
+    {
+        "page_content": "pass the level 1 viva examination repeat l1 viva if a student completes less than 50 of the checklist excluding mandatory checkpoints they will get a chance to reappear however if they complete between 50 and 70 they will not be allowed to reappear and will be awarded a grade based on their checklist performance d for 50 to 60 completion and e for 60 to 70 completion level 2 viva how to prepare for level 2 viva voce examination kaggle notebook you are expected to clearly explain the code you",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 11
+        }
+    },
+    {
+        "page_content": "kaggle notebook you are expected to clearly explain the code you have written and logically describe your choice of data preprocessing steps modeling and inspection of underfitting overfitting the viva examiner may ask you to briefly say in 5 minutes or less walk through your kaggle notebook the viva examiner may ask questions from any course you have taken for your ds diploma the kaggle competition may belong to only say classification yet the",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 11
+        }
+    },
+    {
+        "page_content": "examiner can ask questions from regression and unsupervised machine learning i e all topics you have learned in courses till mlp e g mlf mlt statistics etc only using an api e g decisiontreeclassifier svc etc is not sufficient you should also know how it works internally for every machine learning model that you have learnt and or used in your kaggle notebook you must know and be able to explain its 5 components i e data model loss function optimization procedure training and evaluation you may",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 12
+        }
+    },
+    {
+        "page_content": "model loss function optimization procedure training and evaluation you may be asked to write code from scratch or make changes to your existing code during your viva exam level 2 viva marking scheme for level 2 viva students are expected to be well versed with the following details of the components mentioned in the subsequent table 1 conceptual understanding 2 mathematical details 3 practical aspect 4 programming repeat viva voce examination in case a student scores between 15 24 50 marks they",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 12
+        }
+    },
+    {
+        "page_content": "viva voce examination in case a student scores between 15 24 50 marks they will not pass the viva but they will get another chance to appear for the viva examination if they are not able to clear the viva exam on the second attempt also they will have to repeat the mlp project in the next term if a student scores 15 50 in the viva examination they will not get a second attempt for the viva examination they have to register and pay the fees repeat the entire project the next term and become",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 12
+        }
+    },
+    {
+        "page_content": "and pay the fees repeat the entire project the next term and become eligible to attend the viva it is seen that such students need more practice and time to study the fundamentals again faqs que do i have to take the mlp course and the mlp project in the same term ans no you may take the mlp course in one term and the project in the next que have taken the mlp course and the mlp project in the same term however i find that the milestones cover topics which were not covered in the mlp course",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 12
+        }
+    },
+    {
+        "page_content": "that the milestones cover topics which were not covered in the mlp course before the corresponding milestones deadlines how can i complete the project then ans if you are taking an mlp course and the mlp project in the same term then you will have to be proactive and learn the mlp topics from yt playlists etc you will have to",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 12
+        }
+    },
+    {
+        "page_content": "follow the pace of the milestones in the project if you find this to be too hectic you may complete the mlp course first before taking the project que what is the link to the mlp course playlist on youtube ans que can i take my viva before the project s deadline ans yes if you are confident that you have successfully completed the project and your kaggle notebook is ready refer to the viva section and if you are comfortable taking the viva before the project deadline is over you can however",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 13
+        }
+    },
+    {
+        "page_content": "taking the viva before the project deadline is over you can however grades for your score component will be computed only after the deadline is over that means you can still make submissions to improve your rank and score after the viva the final grade will be computed only after you have taken your viva voce exam and the project is deadline is over que can i finish the project this term and take the viva next term ans no as per the recent committee decision students have to complete the",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 13
+        }
+    },
+    {
+        "page_content": "ans no as per the recent committee decision students have to complete the project and viva in the same term every term the problem statement will change que how can i know that i have followed the project registration steps properly and my registration is approved ans you can track your status in the google sheet provided you will be given week 2 as a buffer in case information is incorrectly provided in assignment 1 que when can i expect my final grade for this project ans 2 days after your",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 13
+        }
+    },
+    {
+        "page_content": "when can i expect my final grade for this project ans 2 days after your viva examination is complete que how should i approach my project ans one way to start your project is to quickly build a baseline model then keep improving your pipeline for the entire project you will have to repeat the end to end ml video from mlp week 1 process multiple times que i have many models for the dataset but i am stuck and not able to improve my score ans you may try hyperparameter tuning and feature",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 13
+        }
+    },
+    {
+        "page_content": "able to improve my score ans you may try hyperparameter tuning and feature engineering look at the samples your model is making incorrect predictions try to learn why that is and improve your model que my rank and score are much better than what is displayed in the effective leaderboard",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 13
+        }
+    },
+    {
+        "page_content": "ans this could be possible if you have made submissions via a kaggle notebook as well as csv zip files and your csv zip files are getting better score and rank however while computing the effective leaderboard your submissions via csv zip files will be ignored que what is the link to the mlp project t12026 term guidelines document ans you are reading exactly the same following is the link to this document mlp project t12026 guidelines once the project deadline is over upload your kaggle",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 14
+        }
+    },
+    {
+        "page_content": "t12026 guidelines once the project deadline is over upload your kaggle notebooks to github once the project s deadline is over this will serve to build your profile tentative viva schedule viva planner for mlp jan 2026 term viva planner how to make admin iitmbscs2008p a collaborator to your competition kaggle notebook 1 go to the competition page code your work where you will find kaggle notebooks that you have created in the competition 2 click on the share button on the right top of the page",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 14
+        }
+    },
+    {
+        "page_content": "3 the window will pop up choose private only collaborators can view this notebook note don t keep it public because you will be offensible if your code is found plagiarized 4 click search collaborators enter the admin s kaggle username which is iitmbscs2008p and choose iitmbscs2008p note don t add other collaborators because you will be offensible if your code is found plagiarized don t make your notebook public ever",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 15
+        }
+    },
+    {
+        "page_content": "5 give can view access to the display name iitmbscs2008p 6 allow comments on 7 the screen will look like the following click the save button",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 16
+        }
+    },
+    {
+        "page_content": "8 once shared you can proceed to register for the ml viva voce exam",
+        "metadata": {
+            "source": "assets/docs/mlp_doc.pdf",
+            "page": 17
+        }
+    }
+]
