@@ -10,7 +10,7 @@ Using RAG technique we can make the LLM understand the context of such documents
 
 ## RAG Process
 
-![Simple RAG Workflow](imgs/simple_rag_workflow.png)
+![Simple RAG Workflow](assets/imgs/simple_rag_workflow.png)
 
 1. We create chucks (e.g. 1,000 chars) of these documents.
 2. Create embeddings of these chunks using an embedding model.
@@ -29,6 +29,8 @@ A few examples of similarity metrics:
 
 We may use more specialized embedding models instead of general ones for searching in a specialized text corpus.
 
+![Text Embedding](assets/imgs/word_embeddings.png)
+
 ## Formal Step-by-Step RAG Process
 
 1. Ingestion & Indexing: External documents are cleaned, split into chunks, converted into vector embeddings, and stored in a vector database.
@@ -42,3 +44,23 @@ We may use more specialized embedding models instead of general ones for searchi
 1. Reduced Hallucinations: Answers are based on retrieved facts rather than just training data or web searches.
 2. Real-time Data: Enables access to up-to-date information without retraining the entire LLM.
 3. Cost-Effective: Lower expense compared to full fine-tuning of the LLM.
+
+## Chatbot Prompt Example
+
+```
+You are a helpful assistant. Use the context to answer the question. If the answer is not in the context, say you do not know.
+
+Context:
+{ context }
+
+Question: { query }
+
+Answer: 
+```
+
+## Useful Links
+
+- [Ollama Text Embedding](https://docs.langchain.com/oss/python/integrations/text_embedding/ollama)
+- [Document Splitters](https://docs.langchain.com/oss/python/integrations/splitters)
+- [Chroma Vector Store](https://docs.langchain.com/oss/python/integrations/vectorstores/chroma)
+- [Google Generative AI Chat](https://docs.langchain.com/oss/python/integrations/chat/google_generative_ai)
