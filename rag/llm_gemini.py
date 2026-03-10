@@ -1,6 +1,8 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-def prompt_llm(query: str, matches: zip, model_name="gemini-3-flash-preview"):
+def prompt_llm(query: str, matches: zip, model_name="gemini-3-flash-preview") -> str:
+    """Prompts a Google Generative AI model to answer a query using provided context matches."""
+
     llm = ChatGoogleGenerativeAI(
         model=model_name,
         temperature=1.0
@@ -14,16 +16,15 @@ def prompt_llm(query: str, matches: zip, model_name="gemini-3-flash-preview"):
     context = "\n\n".join(context_chunks)
 
     prompt = f"""
-        You are a helpful assistant. Use the context to answer the question. If the answer is not in the context, say you do not know.
+    You are a helpful assistant. Use the context to answer the question. If the answer is not in the context, say you do not know.
 
-        Question: { query }
+    Question: { query }
 
-        Context:
-        { context }
+    Context:
+    { context }
 
-        Answer:
+    Answer:
     """
-    # print(message)
 
     response = llm.invoke(prompt)
     return str(response.content[0].get("text", "")).strip()
