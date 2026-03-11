@@ -1,6 +1,20 @@
-# Notes
+# Naive RAG
 
-The following are the notes taken during the live session on the topic of Retrieval Augmentation Generations (RAGs).
+This directory contains code for a CLI application I build to read technical research papers with the help of a LLM. This takes advantage of a AI framework called as Retrieval Augmented Generation which improves LLM accuracy.
+
+## Setup
+
+```bash
+cd simple-rag
+uv sync
+uv run python main.py <doc.pdf>
+```
+
+Make sure you have a Google Gemini API key.
+
+```bash
+export GEMINI_API_KEY="AIxxx"
+```
 
 ## Situation
 
@@ -48,7 +62,8 @@ We may use more specialized embedding models instead of general ones for searchi
 ## Chatbot Prompt Example
 
 ```
-You are a helpful assistant. Use the context to answer the question. If the answer is not in the context, say you do not know.
+You are a helpful assistant. Use the context to answer the question.
+If the answer is not in the context, say you do not know.
 
 Context:
 { context }
