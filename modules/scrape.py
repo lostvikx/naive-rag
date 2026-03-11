@@ -8,13 +8,13 @@ def normalize_text(text: str) -> str:
 
     text = text.lower()
 
-    text = re.sub(r"\'s\b", " is", text)     # it's -> it is, John's -> John is
-    text = re.sub(r"n\'t\b", " not", text)   # wasn't -> was not
-    text = re.sub(r"\'re\b", " are", text)   # they're -> they are
-    text = re.sub(r"\'ll\b", " will", text)  # i'll -> i will
-    text = re.sub(r"\'m\b", " am", text)     # i'm -> i am
-    text = re.sub(r"\'ve\b", " have", text)  # we've -> we have
-    text = re.sub(r"\'d\b", " would", text)  # he'd -> he would
+    text = re.sub(r"\'s\b", " is", text)                # it's -> it is, John's -> John is
+    text = re.sub(r"n\'t\b", " not", text)              # wasn't -> was not
+    text = re.sub(r"\'re\b", " are", text)              # they're -> they are
+    text = re.sub(r"\'ll\b", " will", text)             # i'll -> i will
+    text = re.sub(r"\'m\b", " am", text)                # i'm -> i am
+    text = re.sub(r"\'ve\b", " have", text)             # we've -> we have
+    text = re.sub(r"\'d\b", " would", text)             # he'd -> he would
 
     text = re.sub(r'[“”]', '"', text)
     text = re.sub(r'[‘’]', "'", text)
@@ -22,8 +22,8 @@ def normalize_text(text: str) -> str:
 
     text = text.replace('`', "'")
 
-    text = re.sub(r'http\S+|www\S+|@\w+', '', text)  # remove urls
-    text = re.sub(r'[^a-z0-9\s]', ' ', text)         # keep only alphanumeric chars
+    text = re.sub(r'http\S+|www\S+|@\w+', '', text)     # remove urls
+    text = re.sub(r'[^a-z0-9\s]', ' ', text)            # keep only alphanumeric chars
 
     text = re.sub(r'\s+', ' ', text).strip()
     return text
