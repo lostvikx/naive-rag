@@ -84,5 +84,5 @@ Answer:
 
 * Explain the main idea behind this research paper.
 * How difficult is it to implement this using Python?
-* Explain {topic_name} in detail.
-* What implications can {topic} have on the future of technology?
+* Explain { topic_name } in detail.
+* What implications can { topic_name } have on the future of technology?
