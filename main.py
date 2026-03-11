@@ -1,10 +1,10 @@
 from pathlib import Path
 
-from rag.scrape import extract_text
-from rag.chunks import create_chunks
-from rag.embedding import create_embeddings, store_embeddings
-from rag.retrieve import retrieve_chunks
-from rag.llm_gemini import prompt_llm
+from modules.scrape import extract_text
+from modules.chunks import create_chunks
+from modules.embedding import create_embeddings, store_embeddings
+from modules.retrieve import retrieve_chunks
+from modules.llm_gemini import prompt_llm
 
 def main():
     pdf_file = "assets/docs/mlp_doc.pdf"
@@ -14,21 +14,13 @@ def main():
     Path(chroma_dir).mkdir(parents=True, exist_ok=True)
 
     pages = extract_text(pdf_file)
-
     chunks = create_chunks(pages)
-
     embeddings = create_embeddings(chunks)
 
     count = store_embeddings(embeddings, chunks, data_dir=chroma_dir)
     print(f"Complete: Stored {count} embeddings in {chroma_dir}")
 
     query = input("Enter Prompt: ").strip()
-
-    # Question 1: What is the last date to submit the project?
-    # Question 2: What are the project submission guidelines?
-    # Question 3: What are the project evaluation criteria?
-    # Question 4: What are the python libraries recommended for the project?
-
     matched_chunks = retrieve_chunks(query, data_dir=chroma_dir, k=5)
 
     response = prompt_llm(query, matched_chunks)

@@ -64,3 +64,10 @@ Answer:
 - [Document Splitters](https://docs.langchain.com/oss/python/integrations/splitters)
 - [Chroma Vector Store](https://docs.langchain.com/oss/python/integrations/vectorstores/chroma)
 - [Google Generative AI Chat](https://docs.langchain.com/oss/python/integrations/chat/google_generative_ai)
+
+## Test Questions
+
+* Question 1: What is the last date to submit the project?
+* Question 2: What are the project submission guidelines?
+* Question 3: What are the project evaluation criteria?
+* Question 4: What are the python libraries recommended for the project?
