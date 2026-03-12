@@ -1,4 +1,3 @@
-import json
 import re
 from pathlib import Path
 
@@ -31,7 +30,7 @@ def normalize_text(text: str) -> str:
     return text
 
 
-def extract_text(pdf_path: str | Path) -> list[dict]:
+def extract_text(pdf_path: Path) -> list[dict]:
     """Extracts text from a PDF file and normalizes it."""
 
     doc = fitz.open(pdf_path)
@@ -45,13 +44,10 @@ def extract_text(pdf_path: str | Path) -> list[dict]:
     for i, text in enumerate(texts):
         pages.append(
             {
-                "source": pdf_path,
+                "source": pdf_path.name,
                 "page": i + 1,
                 "text": text,
             }
         )
-
-    with open("data/extracted.json", "w") as f:
-        json.dump(pages, f, indent=4)
 
     return pages

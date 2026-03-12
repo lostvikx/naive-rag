@@ -7,7 +7,7 @@ from langchain_ollama import OllamaEmbeddings
 def retrieve_chunks(
     query: str,
     data_dir: str,
-    pdf_path: str | Path,
+    pdf_path: Path,
     embedding_model_name: str = "nomic-embed-text",
     k: int = 5,
 ) -> zip:
@@ -17,15 +17,18 @@ def retrieve_chunks(
     embedded_query = model.embed_query(query)
 
     client = chromadb.PersistentClient(path=data_dir)
+    # getting the collection
+    # we have created only a single collection
     collection = client.get_or_create_collection(
         name="document_chunks"
-    )  # getting the collection
+    )
 
+    # where is a metadata filter to ensure we only retrieve chunks from the given document
     results = collection.query(
         query_embeddings=embedded_query,
         n_results=k,
         include=["documents", "metadatas", "distances"],
-        where={"source": str(pdf_path)},
+        where={"source": pdf_path.name},
     )
 
     ids = results.get("ids", [[]])[0]
