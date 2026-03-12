@@ -1,5 +1,6 @@
 from langchain_ollama import ChatOllama
 
+
 def prompt_llm(query: str, matches: zip, model_name: str = "qwen3.5:2b") -> str:
     """Prompts an Ollama model to answer a query using provided context matches."""
 
@@ -18,10 +19,10 @@ def prompt_llm(query: str, matches: zip, model_name: str = "qwen3.5:2b") -> str:
     prompt = f"""
     You are a helpful assistant. Use the context to answer the question. If the answer is not in the context, say you do not know.
 
-    Question: { query }
+    Question: {query}
 
     Context:
-    { context }
+    {context}
 
     Answer:
     """

@@ -1,11 +1,12 @@
 import sys
 from pathlib import Path
 
-from modules.scrape import extract_text
 from modules.chunks import create_chunks
 from modules.embedding import create_embeddings, store_embeddings
-from modules.retrieve import retrieve_chunks
 from modules.llm_gemini import prompt_llm
+from modules.retrieve import retrieve_chunks
+from modules.scrape import extract_text
+
 
 def main():
     if len(sys.argv) != 2:
@@ -36,8 +37,9 @@ def main():
             print("AI: Goodbye!")
             break
 
-        matched_chunks = retrieve_chunks(query, data_dir=chroma_dir, pdf_path=pdf_path, k=5)
-
+        matched_chunks = retrieve_chunks(
+            query, data_dir=chroma_dir, pdf_path=pdf_path, k=5
+        )
         response = prompt_llm(query, matched_chunks)
         print(f"AI: {response}")
 

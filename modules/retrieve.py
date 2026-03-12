@@ -1,13 +1,15 @@
-import chromadb
 from pathlib import Path
+
+import chromadb
 from langchain_ollama import OllamaEmbeddings
+
 
 def retrieve_chunks(
     query: str,
     data_dir: str,
     pdf_path: str | Path,
     embedding_model_name: str = "nomic-embed-text",
-    k: int = 5
+    k: int = 5,
 ) -> zip:
     """Retrieves the most relevant document chunks for a given query using the Ollama API and ChromaDB."""
 
@@ -15,12 +17,15 @@ def retrieve_chunks(
     embedded_query = model.embed_query(query)
 
     client = chromadb.PersistentClient(path=data_dir)
-    collection = client.get_or_create_collection(name="document_chunks")    # getting the collection
+    collection = client.get_or_create_collection(
+        name="document_chunks"
+    )  # getting the collection
 
     results = collection.query(
-        query_embeddings=embedded_query, n_results=k,
+        query_embeddings=embedded_query,
+        n_results=k,
         include=["documents", "metadatas", "distances"],
-        where={"source": str(pdf_path)}
+        where={"source": str(pdf_path)},
     )
 
     ids = results.get("ids", [[]])[0]

@@ -1,12 +1,12 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-def prompt_llm(query: str, matches: zip, model_name: str = "gemini-3-flash-preview") -> str:
+
+def prompt_llm(
+    query: str, matches: zip, model_name: str = "gemini-3-flash-preview"
+) -> str:
     """Prompts a Google Generative AI model to answer a query using provided context matches."""
 
-    llm = ChatGoogleGenerativeAI(
-        model=model_name,
-        temperature=1.0
-    )
+    llm = ChatGoogleGenerativeAI(model=model_name, temperature=1.0)
 
     context_chunks = []
     for id, text, metadata, distance in matches:
@@ -19,10 +19,10 @@ def prompt_llm(query: str, matches: zip, model_name: str = "gemini-3-flash-previ
     You are a helpful assistant. Use the context to answer the question.
     If the answer is not in the context, say you do not know.
 
-    Question: { query }
+    Question: {query}
 
     Context:
-    { context }
+    {context}
 
     Answer:
     """
